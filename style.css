@@ -145,3 +145,9 @@ footer {
    margin-top: 10px;
    font-family: 'Carlito', sans-serif;
 }
+
+a {
+   text-decoration: underline;
+   color: #fff;
+}
+ 
