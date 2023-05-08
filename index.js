@@ -13,8 +13,8 @@ app.get('/', (req, res) => {
     res.sendFile(filePath);
 });
 
-app.get('/script6.js', (req, res) => {
-    const filePath = path.join(__dirname, 'script6.js');
+app.get('/script.js', (req, res) => {
+    const filePath = path.join(__dirname, 'script.js');
     res.set('Content-Type', 'text/javascript');
     res.sendFile(filePath);
 
