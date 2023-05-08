@@ -260,3 +260,8 @@ function generateNew() {
     const stopBtn = document.getElementsByClassName("stop-btn")[0];
     stopBtn.classList.add("disabled");
 }
+
+
+
+ 
+ 
